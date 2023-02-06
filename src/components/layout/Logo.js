@@ -5,12 +5,13 @@ import styles from "./logo.module.css";
 const Logo = () => {
   return (
     <div className={styles.logo}>
-      <Image
+      {/* <Image
         src="/images/site/introvert-event.jpg"
         alt="logo"
         width={20}
         height={20}
-      />
+      /> */}
+      <p>Our blog</p>
     </div>
   );
 };

@@ -1,16 +1,12 @@
-import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
 import Hero from "@/components/homepage/Hero";
-
-const inter = Inter({ subsets: ["latin"] });
+import FeaturePosts from "@/components/homepage/FeaturePosts";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      {/* <FeaturedPost /> */}
+      <FeaturePosts />
     </>
   );
 }
