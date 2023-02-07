@@ -7,6 +7,7 @@ const PostItem = (props) => {
   const { title, image, excerpt, date, slug } = props.post;
   const imagePath = `/images/posts/${slug}/${image}`;
   const linkPath = `/posts/${slug}`;
+  console.log(`imagePath`, imagePath);
   return (
     <li className={styles.post}>
       <Link href={linkPath}>
