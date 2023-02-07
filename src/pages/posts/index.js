@@ -1,7 +1,10 @@
+import AllPosts from "@/components/posts/AllPosts";
+import { getAllPosts } from "@/data/posts";
 import React from "react";
 
-const AllPosts = () => {
-  return <div></div>;
+const AllPostsPage = () => {
+  const allPosts = getAllPosts();
+  return <AllPosts posts={allPosts} />;
 };
 
-export default AllPosts;
+export default AllPostsPage;
